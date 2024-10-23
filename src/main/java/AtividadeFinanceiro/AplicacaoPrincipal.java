@@ -34,8 +34,8 @@ public class AplicacaoPrincipal {
         double totalDespesas = processadorDespesas.getTotalDespesas();
         double saldoFinal = totalReceitas - totalDespesas;
 
-        System.out.println("Receitas Totais: " + totalReceitas);
-        System.out.println("Despesas Totais: " + totalDespesas);
-        System.out.println("Saldo Financeiro: " + saldoFinal);
+        System.err.println("Receitas Totais: " + totalReceitas);
+        System.err.println("Despesas Totais: " + totalDespesas);
+        System.err.println("Saldo Financeiro: " + saldoFinal);
     }
 }
