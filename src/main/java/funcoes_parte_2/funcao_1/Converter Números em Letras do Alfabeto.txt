@@ -1,0 +1,3 @@
+(define (numeros-para-letras numeros)
+  (let ((alfabeto (string->list "abcdefghijklmnopqrstuvwxyz")))
+    (map (lambda (n) (list-ref alfabeto (- n 1))) numeros)))

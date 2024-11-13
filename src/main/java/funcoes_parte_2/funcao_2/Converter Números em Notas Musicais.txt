@@ -1,0 +1,3 @@
+(define (numeros-para-notas numeros)
+  (let ((notas '(Do Re Mi Fa Sol La Si)))
+    (map (lambda (n) (list-ref notas (modulo (- n 1) 7))) numeros)))
